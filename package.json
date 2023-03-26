@@ -1,0 +1,22 @@
+{
+  "name": "random-key-cz",
+  "version": "1.0.0",
+  "description": "Returns arandom string based on provided params",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyedAli310/random-key-npm-package.git"
+  },
+  "keywords": [
+    "random-key"
+  ],
+  "author": "Syed Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SyedAli310/random-key-npm-package/issues"
+  },
+  "homepage": "https://github.com/SyedAli310/random-key-npm-package#readme"
+}
