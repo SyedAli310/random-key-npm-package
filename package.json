@@ -1,6 +1,6 @@
 {
   "name": "random-key-cz",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Returns arandom string based on provided params",
   "main": "index.js",
   "scripts": {

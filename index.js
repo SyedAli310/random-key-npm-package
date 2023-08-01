@@ -30,7 +30,7 @@ const generateKeyPattern = (pattern) => {
   if(!pattern || !pattern.length) return new Error('Please provide pattern (eg: xxx-xxxx-xxx)');
   for (let i = 0; i < pattern.length; i++) {
     if (pattern[i] === 'x') {
-      const randomIndex = Math.floor(Math.random() * 16);
+      const randomIndex = Math.floor(Math.random() * hexChars.length);
       guid += hexChars[randomIndex];
     } else {
       guid += pattern[i];
